@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  /* font-family: 'Tinos', 'Arial Light', sans-serif; */
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  cursor: pointer;
+}
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+#footer {
+  font-size: 0.9em;
+  margin-top: -1px;
+  z-index: 1;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: white; */
+  color: white;
+}
